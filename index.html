@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <div class="component">
+      <div class="side result__side">
+        <h5 class="heading__result">Your Result</h5>
+        <div class="result__number">
+          <p class="score__primary">76</p>
+          <p class="score__secondary">of 100</p>
+        </div>
+        <h4 class="result__great">Great</h4>
+        <p class="result__text">
+          Your performance exceed 65% of the people conducting the test here!
+        </p>
+      </div>
+      <div class="side summary__side">
+        <h5 class="heading__summary">Summary</h5>
+        <div class="section reaction__section">
+          <div class="icon__box">
+            <img
+              src="./assets/images/icon-reaction.svg"
+              alt="reaction-icon"
+              class="icon__reaction"
+            />
+            <p class="section__text">Reaction</p>
+          </div>
+          <p class="section__score">92 <span>/ 100</span></p>
+        </div>
+
+        <div class="section memory__section">
+          <div class="icon__box">
+            <img
+              src="./assets/images/icon-memory.svg"
+              alt="memory-icon"
+              class="icon__memory"
+            />
+            <p class="section__text">Memory</p>
+          </div>
+          <p class="section__score">80 <span>/ 100</span></p>
+        </div>
+
+        <div class="section verbal__section">
+          <div class="icon__box">
+            <img
+              src="./assets/images/icon-verbal.svg"
+              alt="verbal-icon"
+              class="icon__verbal"
+            />
+            <p class="section__text">Verbal</p>
+          </div>
+
+          <p class="section__score">61 <span>/ 100</span></p>
+        </div>
+
+        <div class="section visual__section">
+          <div class="icon__box">
+            <img
+              src="./assets/images/icon-visual.svg"
+              alt="visual-icon"
+              class="icon__visual"
+            />
+            <p class="section__text">Visual</p>
+          </div>
+
+          <p class="section__score">72 <span>/ 100</span></p>
+        </div>
+
+        <a href="#" class="btn">Continue</a>
+      </div>
+    </div>
+  </body>
+</html>
